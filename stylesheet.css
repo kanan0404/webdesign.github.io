@@ -1,15 +1,15 @@
-.横並びA {
+.lineA {
 	display: flex;
 	gap: 20px;
 	justify-content: center;
 
-	& .列 {
+	& .line {
 		background-color: orange;
 		width: 80px;
 	}
 }
 
-.横並びB {
+.lineB {
 	display: flex;
 	justify-content: space-between;
 	
@@ -24,12 +24,12 @@
 	}	
 }
 
-.動物 {
+.animal {
 	display: flex;
 	justify-content: center;
 	gap: 5px;
 	
-	& .動物列 {
+	& .animal line {
 		width: 100px;
 		padding: 10px;
 		border-style: solid;
