@@ -13,12 +13,12 @@
 	display: flex;
 	justify-content: space-between;
 	
-	& .広い列 {
+	& .wide {
 		background-color: lightblue;
 		width: 200px;
 	}
 	
-	& .狭い列 {
+	& .narrow {
 		background-color: lightgreen;
 		width: 120px;
 	}	
@@ -35,16 +35,16 @@
 		border-style: solid;
 	}
 	
-	& .画像 {
+	& .pic {
 		width :100%;
 	}
 	
-	& .サブタイ {
+	& .sub {
 		font-size: 20px;
 		font-weight: bold;
 	}
 	
-	& .本文 {
+	& .text {
 		font-size: 12px;
 	}
 }
